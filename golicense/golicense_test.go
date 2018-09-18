@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2016 Palantir Technologies Inc. All rights reserved.
 // Use of this source code is governed by the Apache License, Version 2.0
 // that can be found in the LICENSE file.
@@ -18,8 +23,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/palantir/go-license/golicense"
-	"github.com/palantir/go-license/golicense/config"
+	"github.com/sniperkit/snk.fork.palantir-go-license/golicense"
+	"github.com/sniperkit/snk.fork.palantir-go-license/golicense/config"
 )
 
 func TestLicenseFiles(t *testing.T) {
